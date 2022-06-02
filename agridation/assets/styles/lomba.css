@@ -1,0 +1,95 @@
+body {
+    background-color: #F8F9FA;
+    font-family: 'Lato';
+}
+  
+nav {
+    border-bottom: 2px solid grey;
+}
+
+.nav-item a {
+    color: #09421a;
+  }
+  
+  .nav-item a:hover {
+    color: #09421a;
+  }
+  
+  .btn-masuk {
+    background-color: #09421a;
+    color: white;
+  }
+  
+  .btn-masuk:hover {
+    background-color: #09421a;
+    color: white;
+  }
+
+
+#lomba {
+    display: flex;
+    margin: 80px 0px 0px;
+    gap: 32px;
+    background: #F8F9FA;
+    color: #F8F9FA;
+}
+
+#lomba .container{
+    background-color: #F8F9FA;    
+}
+
+#lomba .card{
+    background-color: #125D1B;
+    border-radius: 16px;
+}
+
+#lomba .card img{
+    height: 93.33px;
+    width: 73.33px;
+    margin: 16px 134px 0 134px;
+}
+
+#lomba a{
+  margin-top: -1.00rem;
+}
+
+.section-footer{
+  font-family: 'Lato';
+  font-style: normal;
+  font-weight: 300;
+  border-top: 2px solid grey;
+  border-bottom: 2px solid grey;
+}
+
+#timeline{
+  margin-top: -10rem;
+}
+
+#timeline .container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 32px;
+  
+  width: 1412px;
+  height: 910px;
+  
+  background: #F8F9FA;
+  
+  flex: none;
+  order: 1;
+  flex-grow: 0;
+}
+
+#timeline .container-img {
+  padding: 0px;
+  gap: 48px;
+  overflow-y: scroll;
+}
+
+.container img {
+  max-width: 1034px;
+}
+
+
+
